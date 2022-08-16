@@ -1,0 +1,621 @@
+    * {
+        margin: 0 auto;
+    }
+
+    body {
+        width: 1512px;
+    }
+
+    .container {
+        max-width: 1140px;
+        width: 1140px;
+        text-align: center;
+    }
+
+    /* nav bar */
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    li {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        display: absolute;
+        margin: 0 30px 0;
+        font-family: 'poppins';
+    }
+
+    nav ul li a:hover {
+        text-decoration: underline;
+        color: blue;
+    }
+
+    .nav-icons {
+        width: 15px;
+        height: 18px;
+        padding: 0 2px 0 2px;
+    }
+
+    .nav-ic {
+        width: 150px;
+    }
+
+    input {
+        border-color: #C4C4C4;
+        border-radius: 10px;
+        color: #000;
+        margin-left: -30px;
+        padding: 15px 8px 15px 10px;
+    }
+
+    input[type='text']::placeholder {
+        padding-left: 20px;
+        position: relative;
+        z-index: 2;
+        color: #a3a3a3;
+    }
+
+    .fa-magnifying-glass {
+        position: relative;
+        color: #a3a3a3;
+        z-index: 4;
+    }
+
+    h1 {
+        font-family: 'Poppins';
+        font-size: 40px;
+        line-height: 1.2;
+        position: relative;
+        text-align: left;
+        width: 350px;
+        height: 20px;
+        left: 115px;
+        top: 100px;
+        color: #000000;
+        float: left;
+    }
+
+    .p {
+        font-family: 'Poppins';
+        position: relative;
+        width: 350px;
+        left: 55px;
+        top: 250px;
+        font-family: 'Poppins';
+        font-size: 15px;
+        color: #C4C4C4;
+        float: left;
+    }
+
+
+    /* landing desc */
+
+    .cta12 {
+        float: left;
+        position: relative;
+        left: 360px;
+    }
+
+
+    /* all buttons */
+    .nav-btn {
+        border: 1px solid #fff;
+        background: #fff;
+    }
+
+    .nav-btn:hover {
+        cursor: pointer;
+        top: 10px;
+        transition: .3s;
+    }
+
+    button.exp {
+        position: relative;
+        top: 350px;
+        left: -600px;
+        background: blue;
+        color: white;
+        padding: 12px 50px;
+        cursor: pointer;
+        border: 1px solid #fff;
+        border-radius: 7px;
+    }
+
+    button.exp:hover {
+        top: 345px;
+        transition: .5s;
+    }
+
+    button.reg {
+        position: relative;
+        top: 350px;
+        left: -580px;
+        border: 1px solid blue;
+        border-radius: 7px;
+        color: blue;
+        padding: 12px 50px;
+        cursor: pointer;
+    }
+
+    button.reg:hover {
+        top: 345px;
+        transition: .5s;
+    }
+
+    .btn {
+        border: hidden;
+        cursor: pointer;
+        background-color: white;
+    }
+
+    .btn:hover {
+        width: 190px;
+    }
+
+    .buy-now:hover {
+        background: rgb(211, 210, 210);
+        border-radius: 10px;
+        transition: .5s;
+    }
+
+    .reg-seller {
+        background: #00f;
+        color: #fff;
+        border-radius: 10px;
+        padding: 5px 50px;
+        position: relative;
+        top: 50px;
+        right: 180px;
+    }
+
+    button.SBB {
+        cursor: pointer;
+        border: hidden;
+        background: #fff;
+    }
+
+    .smiling-man {
+        width: 32%;
+        position: relative;
+        top: -30px;
+        right: -120px;
+        z-index: 3;
+    }
+
+    /* background-color: #e5e8ff;
+        background-size: 300px 220px;
+    }
+    .blue{
+        background: #E5E8FF;
+        position: absolute;
+        bottom: px;
+        left: 20px;
+        z-index: 1;
+        width: 300px;
+        height: 220px;
+        border-radius: 35px;
+    } 
+    all of this for smiling man's bg */
+
+    /* PROMO */
+
+    .promo {
+        font-family: 'Poppins';
+        position: relative;
+        z-index: 4;
+        top: -150px;
+        right: -150px;
+        height: 48px;
+        width: 180px;
+        padding: 0 15px 15px 20px;
+        border: 1px solid white;
+        background: white;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+
+    .span {
+        position: relative;
+        padding: 15px 15px;
+        border-radius: 100%;
+        background: blue;
+        border: 1px solid blue;
+        right: 105px;
+        top: 20px;
+        color: white;
+    }
+
+    /* SERVICES */
+
+    .service {
+        position: relative;
+        display: flex;
+        height: 90px;
+        width: 963px;
+        background: rgb(243, 240, 240);
+        box-shadow: 0px 8.93321px 40.1994px rgba(214, 214, 214, 0.25);
+        border-radius: 17.8664px;
+        top: 30px;
+        margin-bottom: 150px;
+    }
+
+    .services {
+        width: 200px;
+    }
+
+    .bg {
+        position: relative;
+        display: flex;
+        width: 5.53px;
+        height: 5.53px;
+        background: #1C00FF;
+        border-radius: 89.3321px;
+        padding: none;
+        left: 20px;
+        padding-right: 34px;
+        padding-bottom: -20px;
+    }
+
+    /* SERV-IMAGES */
+
+    .serv-img {
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .serv-img .a {
+        height: 100px;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .serv-img button {
+        cursor: pointer;
+        border: hidden;
+        border-radius: 100%;
+    }
+
+
+    .e {
+        background: grey;
+        border-radius: 10px;
+    }
+
+    .arrow-img {
+        height: 30px;
+        width: 150px;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+
+    }
+
+    .arr-btn {
+        width: 80px;
+        height: 60px;
+        margin-top: 25px;
+        cursor: pointer;
+        border-radius: 10px;
+        background: rgb(255, 255, 255);
+        box-shadow: 0px 7.26903px 20.8985px rgba(189, 189, 189, 0.25);
+
+    }
+
+    .arr-btn:hover {
+        width: 80px;
+        height: 62px;
+    }
+
+    /* TOP SALES ... SECTION */
+
+    .top-sales {
+        font-family: 'inter';
+    }
+
+    .top-sales-1 {
+        font-family: 'Poppins';
+        display: flex;
+        justify-content: space-around;
+        background: #E5E8FF;
+        box-shadow: 0px 131px 53px rgba(189, 189, 189, 0.01), 0px 74px 44px rgba(189, 189, 189, 0.03), 0px 33px 33px rgba(189, 189, 189, 0.04), 0px 8px 18px rgba(189, 189, 189, 0.05), 0px 0px 0px rgba(189, 189, 189, 0.05);
+        border-radius: 17.222px;
+        padding: 100px 0 100px 0;
+    }
+
+    .words {
+        display: grid;
+        height: 30px;
+        width: 350px;
+    }
+
+    .price {
+        color: blue;
+        font-size: 48px;
+    }
+
+    .shop {
+        padding: 12px 40px;
+        color: #fff;
+        border-radius: 5px;
+        background: #00f;
+    }
+
+    .headset {
+        width: 280px;
+    }
+
+    .filter {
+        float: left;
+        font-family: 'poppins';
+        color: #000;
+        position: relative;
+        bottom: 40px;
+        left: 40px;
+        background: #fff;
+        border: none;
+    }
+
+    /* x is for top deals's see all positioning */
+    .x {
+        visibility: hidden;
+    }
+
+    .filter:hover {
+        cursor: pointer;
+        width: 71.01px;
+    }
+
+    .see-all {
+
+        font-family: 'poppins';
+        color: #c4c4c4;
+        position: relative;
+        bottom: 40px;
+        border: none;
+        background: #fff;
+        left: 470px;
+    }
+
+    .see-all:hover {
+        cursor: pointer;
+        width: 55.65px;
+    }
+
+    /* POPULAR, TOP DEALS & NEW PROD SECTION */
+
+    .img-border {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img-border img {
+        width: 300px;
+    }
+
+    /* .idp = IMG & DESCRIPTION ALL 2GEDA */
+    .idp {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 299.19px;
+        height: 448.2px;
+        display: grid;
+        box-shadow: 0px 7.26903px 20.8985px rgba(189, 189, 189, 0.25);
+        justify-items: left;
+    }
+
+    .idp .descrip {
+        font-size: 25px;
+        float: left;
+    }
+
+    .idp .price2 {
+        color: blue;
+        font-size: 25px;
+        float: left;
+    }
+
+    .idp .cta3 {
+        background: blue;
+        padding: 12px 50px;
+        border-radius: 10px;
+        color: #fff;
+    }
+
+    .idp .cta4 {
+        color: #00f;
+    }
+
+    /*.BOS = BE OUR SELLER SECTION */
+
+    .BOS {
+        display: flex;
+        border: 1px solid #fff;
+        border-radius: 20px;
+        background: #F2F3FF;
+        box-shadow: 0px 131px 53px rgba(189, 189, 189, 0.01), 0px 74px 44px rgba(189, 189, 189, 0.03), 0px 33px 33px rgba(189, 189, 189, 0.04), 0px 8px 18px rgba(189, 189, 189, 0.05), 0px 0px 0px rgba(189, 189, 189, 0.05);
+        border-radius: 30px;
+        height: 500px;
+    }
+
+    .BOS-words {
+        font-family: 'Poppins';
+        display: grid;
+        width: 600px;
+        height: 300px;
+        padding-top: 30px;
+        justify-items: left;
+    }
+
+    .BOS P {
+        color: #979797;
+    }
+
+    /* TOP SELLER SECTION */
+
+    .ind-sellers {
+        font-family: 'Poppins';
+        width: 250.07px;
+        height: 330.21px;
+        border: 1px solid #fff;
+        box-shadow: 0px 8.93321px 40.1994px rgba(177, 171, 171, 0.25);
+        border-radius: 17.8664px;
+    }
+
+    .top-sellers {
+        display: flex;
+        max-width: 990px;
+    }
+
+    .top-sellers P {
+        color: #979797;
+    }
+
+/* FOOTER SECTION */
+
+    .footer {
+        font-family: 'Poppins';
+        width: 100%;
+        height: 612px;
+        background: #030710;
+        text-align: center;
+    }
+
+    .all-list {
+        display: flex;
+        /* justify-items: left; */
+        color: #fff;
+        line-height: 2;
+        position: relative;
+        top: 5px;
+        width: 950px;
+        text-align: left;
+    }
+
+    .all-list2 {
+        display: flex;
+        color: #fff;
+        line-height: 1.5;
+        position: relative;
+        top: 35px;
+        left: -210px;
+        width: 500px;
+    }
+
+    .list {
+        display: grid;
+    }
+
+    .list h2 {
+        font-size: 18px;
+        position: relative;
+        left: 20px;
+    }
+
+    .list ul li a {
+        color: #fff;
+        font-size: 15px;
+        /* text-align: start; */
+        /* float: left; */
+        text-decoration: none;
+    }
+    .list ul li a:hover{
+        text-decoration: underline;
+    }
+
+    .subscribe {
+        position: relative;
+        z-index: 2;
+        right: 80px;
+        bottom: 80px;
+    }
+
+    .subscribe h2 {
+        color: #fff;
+    }
+
+    .subscribe input {
+        width: 300px;
+        height: 18px;
+        border-radius: 0px;
+    }
+
+    .subscribe button {
+        padding: 12px 50px;
+        background: #00f;
+        color: #fff;
+        height: 52px;
+        position: relative;
+        right: 8px;
+        border: none;
+    }
+    .subscribe button:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .download {
+        display: grid;
+        position: relative;
+        z-index: 1;
+        bottom: 280px;
+        right: -400px;
+        color: #fff;
+        line-height: 2;
+        font-family: 'inter';
+    }
+
+    .dld-btn {
+        padding: 10px 10px;
+        background: #030710;
+        color: #fff;
+        cursor: pointer;
+        width: 200px;
+    }
+    .get{
+        float: left;
+        padding: 15px 0;
+    }
+
+    /* FOOTER ICONS */
+
+    .fa-angle-up {
+        background: linear-gradient(43.45deg, #6BD4FF 11.55%, #8C70FF 84%);
+        box-shadow: 0px 44px 80px rgba(97, 107, 217, 0.33);
+        ;
+        padding: 10px 10px;
+        border-radius: 100%;
+        float: right;
+        position: relative;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+
+    .B2T {
+        position: relative;
+        left: 500px;
+        border: hidden;
+        border-radius: 100%;
+    }
+
+    .brand-icon {
+        display: flex;
+        padding: 0 10px 0 10px;
+        justify-items: stretch;
+        width: 100px;
+        position: relative;
+        left: 10px;
+    }
